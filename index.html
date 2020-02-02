@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="https://i.dlpng.com/static/png/22742_preview.png">
+
+  <title>CuberTime | Rubiks Cube Timer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <ul>
+    <li><a class="lefty">CuberTime</a></li>
+    <li style="float:right"><a class="active">By Adam Salt</a></li>
+  </ul>
+
+  <div class="timediv">
+    <h1 id="timer">00 : 00 . 000</h1>
+
+    <button id="toggle">Start</button>
+
+  </div>
+
+  <div class="timediv">
+
+    <h1 align="center">Times</h1>
+
+    <button id="clear" onclick="lapsDetails.innerHTML = ''">Clear</button>
+
+    <br>
+    <br>
+
+    <li align="left" class="big" style="list-style-type:none;" id="lapsDetails">
+
+    </li>
+  </div>
+
+
+
+  <script src="stopwatch.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
